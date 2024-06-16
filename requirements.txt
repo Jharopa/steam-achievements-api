@@ -1,0 +1,5 @@
+asyncpg==0.29.0
+fastapi==0.111.0
+redis==5.0.5
+rq==1.16.2
+requests==2.32.3
