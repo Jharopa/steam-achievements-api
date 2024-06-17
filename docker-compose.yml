@@ -31,7 +31,7 @@ services:
 
   api:
     container_name: achievements-api
-    build: 
+    build:
       context: ./
       dockerfile: ./Dockerfile
     ports:
@@ -42,10 +42,10 @@ services:
         condition: service_healthy
       redis:
         condition: service_started
-  
+
   worker:
     container_name: achievements-queue-worker
-    build: 
+    build:
       context: ./
       dockerfile: ./Dockerfile
     depends_on:

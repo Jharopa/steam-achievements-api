@@ -1,6 +1,6 @@
 asyncpg==0.29.0
 fastapi==0.111.0
+python-dotenv==1.0.1
 redis==5.0.5
-rq==1.16.2
 requests==2.32.3
-python-dotenv==1.0.1 
+rq==1.16.2
